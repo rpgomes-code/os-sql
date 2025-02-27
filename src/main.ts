@@ -22,9 +22,9 @@ async function bootstrap() {
 
   // Enhanced Swagger configuration with security definitions
   const configSwagger = new DocumentBuilder()
-    .setTitle('Outsystems SQL Toolkit API')
+    .setTitle('OutSystems SQL Migration API')
     .setDescription(
-      'Comprehensive API documentation for Outsystems SQL toolkit service.',
+      'API for converting SQL Server queries to PostgreSQL for OutSystems ODC with logging capabilities',
     )
     .setVersion('1.0')
     // Define the security scheme more explicitly
